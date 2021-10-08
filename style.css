@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 50%;
+    margin: 100px auto;
+    padding: 35px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.container{
+    margin: 25px auto;
+}
+
+.container > div{
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    line-height: 2rem;
+}
