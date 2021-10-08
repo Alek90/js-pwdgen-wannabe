@@ -35,3 +35,5 @@ document.getElementById("color").innerHTML=favorite_color;
 // Generare password personalizzata
 
 document.getElementById("password_for_you").innerHTML=`${first_name + second_name + favorite_color}21`
+
+document.getElementById("password_for_you").innerHTML=first_name + second_name + favorite_color + "21"
