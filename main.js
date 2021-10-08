@@ -9,7 +9,7 @@ console.log (first_name)
 
 // Mostrare risposta
 
-document.getElementById("name").innerHTML=first_name
+document.getElementById("name").innerHTML=first_name;
 
 
 // Chiedere cognome
@@ -19,9 +19,18 @@ console.log (second_name)
 
 // Mostrare risposta
 
-document.getElementById("surname").innerHTML=second_name
+document.getElementById("surname").innerHTML=second_name;
 
 
 // Chiedere colore preferito
 
+const favorite_color = prompt ("Qual'è il tuo colore preferito?")
+console.log (favorite_color)
+
+// Mostrare risposta
+
+document.getElementById("color").innerHTML=favorite_color;
+
+
 // Generare password personalizzata
+
